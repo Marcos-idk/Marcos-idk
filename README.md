@@ -1,24 +1,48 @@
-# 👋 Olá, eu sou Marcos
+# 🎬 CineFinder
 
-💻 Desenvolvedor apaixonado por tecnologia, programação e inteligência artificial.
+O CineFinder é uma API REST desenvolvida com Java e Spring Boot que simula um sistema de gerenciamento de filmes.
 
-## 🚀 Sobre mim
-- 🔭 Atualmente estudando **Java, APIs e IA**
-- 🌱 Aprendendo **Backend e desenvolvimento de sistemas**
-
-## 🛠️ Tecnologias e Ferramentas
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-## 📫 Contato
-
-- GitHub: https://github.com/Marcos-idk
-- LinkedIn: (https://www.linkedin.com/in/marcos-santos-121a0a286/)
-- Email: marcoosppedro@gmail.com
+O projeto permite realizar operações de cadastro, listagem, busca, atualização e remoção de filmes, aplicando conceitos de desenvolvimento backend e boas práticas de arquitetura.
 
 ---
 
-⭐ Obrigado por visitar meu perfil!
+## 🚀 Tecnologias utilizadas
+
+- Java
+- Spring Boot
+- Maven
+- JPA / Hibernate
+- Banco de dados H2
+
+---
+
+## 📌 Funcionalidades
+
+- Listar todos os filmes
+- Buscar filme por ID
+- Buscar filmes por título
+- Cadastrar novos filmes
+- Atualizar informações
+- Remover filmes
+
+---
+
+## 🔗 Endpoints
+
+| Método | Rota                          | Descrição                  |
+|--------|------------------------------|----------------------------|
+| GET    | /api/filmes                  | Listar todos os filmes     |
+| GET    | /api/filmes/{id}             | Buscar filme por ID        |
+| GET    | /api/filmes/buscar?titulo=   | Buscar por título          |
+| POST   | /api/filmes                  | Criar novo filme           |
+| PUT    | /api/filmes/{id}             | Atualizar filme            |
+| DELETE | /api/filmes/{id}             | Remover filme              |
+
+---
+
+## ▶️ Como executar o projeto
+
+```bash
+git clone https://github.com/Marcos-idk/seu-repositorio.git
+cd seu-repositorio
+./mvnw spring-boot:run

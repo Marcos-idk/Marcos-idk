@@ -1,48 +1,47 @@
-# 🎬 CineFinder
+# Olá, eu sou o Marcos Santos
 
-O CineFinder é uma API REST desenvolvida com Java e Spring Boot que simula um sistema de gerenciamento de filmes.
+Sou estudante de Desenvolvimento de Software Multiplataforma pela FATEC Mauá, com foco em desenvolvimento backend utilizando Java e Spring Boot.
 
-O projeto permite realizar operações de cadastro, listagem, busca, atualização e remoção de filmes, aplicando conceitos de desenvolvimento backend e boas práticas de arquitetura.
-
----
-
-## 🚀 Tecnologias utilizadas
-
-- Java
-- Spring Boot
-- Maven
-- JPA / Hibernate
-- Banco de dados H2
+Tenho interesse em construir APIs REST, trabalhar com banco de dados e aplicar boas práticas de desenvolvimento. Atualmente estou em busca de uma oportunidade de estágio para evoluir profissionalmente e contribuir com projetos reais.
 
 ---
 
-## 📌 Funcionalidades
+## Tecnologias e Ferramentas
 
-- Listar todos os filmes
-- Buscar filme por ID
-- Buscar filmes por título
-- Cadastrar novos filmes
-- Atualizar informações
-- Remover filmes
-
----
-
-## 🔗 Endpoints
-
-| Método | Rota                          | Descrição                  |
-|--------|------------------------------|----------------------------|
-| GET    | /api/filmes                  | Listar todos os filmes     |
-| GET    | /api/filmes/{id}             | Buscar filme por ID        |
-| GET    | /api/filmes/buscar?titulo=   | Buscar por título          |
-| POST   | /api/filmes                  | Criar novo filme           |
-| PUT    | /api/filmes/{id}             | Atualizar filme            |
-| DELETE | /api/filmes/{id}             | Remover filme              |
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![API REST](https://img.shields.io/badge/API_REST-000000?style=for-the-badge&logo=fastapi&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![H2](https://img.shields.io/badge/H2-0000FF?style=for-the-badge&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=yellow)
 
 ---
 
-## ▶️ Como executar o projeto
+## Projetos em destaque
 
-```bash
-git clone https://github.com/Marcos-idk/seu-repositorio.git
-cd seu-repositorio
-./mvnw spring-boot:run
+### CineFinder – API de Cinema
+API REST desenvolvida com Java e Spring Boot para gerenciamento de filmes.
+
+- Operações CRUD  
+- Integração com banco de dados  
+- Arquitetura em camadas  
+
+🔗 Acesse o projeto:  
+https://github.com/Marcos-idk/cineFinder
+
+---
+
+## Formação
+
+FATEC Mauá – Desenvolvimento de Software Multiplataforma  
+Cursando – 3º semestre
+
+---
+
+## Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcos-santos-121a0a286/)
+
+Email: marcoosppedro@gmail.com
